@@ -5,7 +5,7 @@ import starlightThemeRapide from 'starlight-theme-rapide'
 export default defineConfig({
   integrations: [
     starlight({
-      credits: true,
+      credits: false,
       editLink: {
         baseUrl: 'https://github.com/HiDeoo/starlight-theme-rapide/edit/main/docs/',
       },
@@ -25,11 +25,11 @@ export default defineConfig({
         },
       ],
       social: [
-        { href: 'https://bsky.app/profile/hideoo.dev', icon: 'blueSky', label: 'Bluesky' },
-        { href: 'https://github.com/HiDeoo/starlight-theme-rapide', icon: 'github', label: 'GitHub' },
+        { href: 'https://whatsapp.com/channel/0029Vb3D8q00Qeabko4izt2N', icon: 'whatsapp', label: 'WhatsApp' },
+        { href: 'https://github.com/j-forces', icon: 'github', label: 'GitHub' },
       ],
-      title: 'Starlight Rapide',
+      title: 'JKT48Connect Docs',
     }),
   ],
-  site: 'https://starlight-theme-rapide.vercel.app',
+  site: 'https://docs.jkt48connect.my.id',
 })
