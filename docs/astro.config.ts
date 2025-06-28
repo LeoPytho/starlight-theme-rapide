@@ -25,7 +25,7 @@ export default defineConfig({
         },
       ],
       social: [
-        { href: 'https://whatsapp.com/channel/0029Vb3D8q00Qeabko4izt2N', icon: 'whatsapp', label: 'WhatsApp' },
+        { href: 'https://whatsapp.com/channel/0029Vb3D8q00Qeabko4izt2N', icon: 'github', label: 'WhatsApp' },
         { href: 'https://github.com/j-forces', icon: 'github', label: 'GitHub' },
       ],
       title: 'JKT48Connect Docs',
